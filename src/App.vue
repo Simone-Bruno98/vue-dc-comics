@@ -25,9 +25,11 @@ export default {
     Footer2,
   }
 }
+
 </script>
 
 <style lang="scss">
+@import './assets/style/general.scss';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
