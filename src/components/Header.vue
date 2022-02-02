@@ -60,6 +60,7 @@ export default {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    height: 120px;
     li{
       text-transform: uppercase;
       font-size: 12px;
@@ -67,8 +68,8 @@ export default {
       cursor: pointer;
       padding: 5px 10px;
       &:hover{
-        color: blue;
-        border-bottom: 4px solid blue;
+        color: #0282F9;
+        border-bottom: 4px solid #0282F9;
       }
     }
   }
