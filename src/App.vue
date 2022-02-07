@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header/>
+    <ContentThumb/>
     <Content/>
     <Nav/>
     <Footer1/>
@@ -10,6 +11,7 @@
 
 <script>
 import Header from './components/Header.vue'
+import ContentThumb from './components/ContentThumb.vue'
 import Content from './components/Content.vue'
 import Nav from './components/Nav.vue'
 import Footer1 from './components/Footer1.vue'
@@ -19,6 +21,7 @@ export default {
   name: 'App',
   components: {
     Header,
+    ContentThumb,
     Content,
     Nav,
     Footer1,
